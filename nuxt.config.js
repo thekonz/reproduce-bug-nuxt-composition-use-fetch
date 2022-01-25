@@ -1,4 +1,5 @@
-export default {
+import { defineNuxtConfig } from "@nuxt/bridge";
+export default defineNuxtConfig({
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "flerp",
@@ -24,11 +25,11 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxtjs/composition-api/module"],
+  buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-};
+});
